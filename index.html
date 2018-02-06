@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>El~Pomodorro</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Play'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="header">
+    <h1>El ~ Pomodorro </h1> 
+    <img alt="mustache" src="https://raw.githubusercontent.com/AdityaOli/FreeCodeCamp/master/Pomodoro%20Clock/Moustache-PNG-Clipart.png" width="250" height="100"/>
+  </div>
+  <div class="row">
+    <div class="col-half knob-wrapper">
+      <h5>Session Length</h5>
+      <input type="text" value="25" size="5" id="session-knob" data-linecap = "round" data-width="150"
+    data-skin="tron"
+    data-thickness=".1"/>
+    </div>
+    <div class="col-half knob-wrapper">
+      <h5>Break Length</h5>
+      <input type="text" value="5" size="5" id="break-knob" data-linecap = "round" data-width="150"
+    data-skin="tron"
+    data-thickness=".1"/>
+    </div>
+  </div>
+  <div class="timer knob-wrapper">
+    <input type="text" value="1500" size="5" id="timer-display" data-linecap = "round" data-width="150"
+    data-skin="tron"
+    data-thickness=".1" data-linecap = "round" data-width="150"
+    data-skin="tron"
+    data-thickness=".1" />
+  </div>
+  <div class="buttons">
+    <a id="cmd-reset" class="btn btn-red"><i class="fa fa-undo"></i> Reset</a>
+    <a id="cmd-pause" class="btn btn-yellow hidden"><i class="fa fa-pause"></i> Pause</a>
+    <a id="cmd-go" class="btn btn-green"><i class="fa fa-play"></i> Start</a>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.13/jquery.knob.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
